@@ -10,6 +10,7 @@ namespace DesignPattern_Proxy
     {
         public string password;
         public RealNumbers rN = new RealNumbers();
+    
         public override void Reference()
         {
             if (password == "123"){
@@ -29,6 +30,7 @@ namespace DesignPattern_Proxy
             }
             password = Console.ReadLine();
             Reference();
+            rN.Reference();
         }
     }
 }

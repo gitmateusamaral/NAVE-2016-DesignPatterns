@@ -9,7 +9,9 @@ namespace DesignPattern_Proxy
     class RealNumbers : SubjectNumbers
     {
         public int unlock = 0;
+    
         public override void Reference(){
+
             if (unlock == 1){
                 numbers();
             }
@@ -21,8 +23,9 @@ namespace DesignPattern_Proxy
             {
                 OddNumbers();
             }
+
         }
-        public void numbers(){
+         public void numbers(){
             Console.WriteLine("Numbers: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9"  + "\n");
         }
 
