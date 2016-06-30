@@ -11,6 +11,7 @@ namespace Facade
     {
         public int[] _l;
         public string[] date;
+        //read text and sets values in an int array
         public WTW(string start, string end)
         {
             date = new string[2] { start, end };
@@ -22,10 +23,15 @@ namespace Facade
                 {
                     for (int i = 0; i < lines.Length; i++)
                     {
-                        if (lines[i].Split('|')[0] == start)
+                        if (lines[i].Split('|')[0] == start){
                             _l[0] = i;
+                            Console.Write("Start: " + i);
+                        }
                         else if (lines[i].Split('|')[0] == end)
+                        {
                             _l[1] = i;
+                            Console.WriteLine("End: " + i);
+                        } 
                     }
                 }
             }

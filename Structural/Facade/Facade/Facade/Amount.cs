@@ -15,6 +15,7 @@ namespace Facade
         {
             _amount = f;
         }
+        //uses the value of WTW class to calculate the profit
         public float returnProfit(int[] t)
         {
             string[] lines = File.ReadAllLines("BitValue.bitv");
