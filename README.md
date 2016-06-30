@@ -1,7 +1,15 @@
 # Design Patterns (NAVE 3003.16)
-## Intro
 
+![Logo](https://img.shields.io/badge/Design-Patterns-blue.svg)
+<br>
+![Stage](https://img.shields.io/badge/Stage-Developing-red.svg)
+
+## Intro
+####English:
 Design Patterns sample solutions created by 3003 - 2016 NAVE Students 
+
+####Português:
+Exemplo de soluções para Design Patterns criados pela 3003 - 2016 Estudantes do Nave 
 
 ## How to deploy
 
